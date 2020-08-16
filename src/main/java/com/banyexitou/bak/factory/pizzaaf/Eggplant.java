@@ -1,0 +1,8 @@
+package com.banyexitou.bak.factory.pizzaaf;
+
+public class Eggplant implements Veggies {
+
+	public String toString() {
+		return "Eggplant";
+	}
+}
