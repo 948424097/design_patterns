@@ -6,11 +6,6 @@ public abstract class Animal {
 
     public Behavior behavior;
 
-
-    public Behavior getBehavior() {
-        return behavior;
-    }
-
     public void setBehavior(Behavior behavior) {
         this.behavior = behavior;
     }

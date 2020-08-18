@@ -2,6 +2,9 @@ package com.banyexitou.homework.observe.observer;
 
 import com.banyexitou.homework.observe.observable.Observable;
 
+/**
+ * 观察者
+ */
 public abstract class Observer {
 
     Observable observable;

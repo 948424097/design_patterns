@@ -4,6 +4,9 @@ import com.banyexitou.homework.observe.observer.Observer;
 
 import java.util.ArrayList;
 
+/**
+ * 被观察的
+ */
 public abstract class Observable {
 
     ArrayList list;
