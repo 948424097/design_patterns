@@ -1,4 +1,4 @@
-package com.banyexitou.base;
+package banyexitou.base;
 
 public interface InstanceTestClassListener {
 

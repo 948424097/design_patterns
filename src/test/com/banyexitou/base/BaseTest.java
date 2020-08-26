@@ -1,4 +1,4 @@
-package com.banyexitou.base;
+package banyexitou.base;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,6 @@ import org.springframework.test.context.ContextConfiguration;
 
 import java.io.IOException;
 
-@RunWith(SpringInstanceTestClassRunner.class)
 @ContextConfiguration
 @SpringBootTest
 public class BaseTest {
@@ -20,12 +19,14 @@ public class BaseTest {
          * question：resource目录标记是什么用的？
          * 为什么标记了以后就可以找到
          * 测试下载的接口下载的文件最后去了哪里
+         *不应该通过类实例访问静态成员????为什么
+         *
+         *
          *
          * 输出流和输入流的异常处理
          */
         String path = getClass().getResource("/a.txt").getPath();
         System.out.println(path);
 
-        new classpathresource
     }
 }
