@@ -1,4 +1,4 @@
-package com.banyexitou.homework.finaltest;
+package com.banyexitou.homework.jvmtest;
 
 import lombok.ToString;
 
