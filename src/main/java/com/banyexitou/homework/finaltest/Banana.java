@@ -22,9 +22,12 @@ public class Banana {
 
      public static void main(String[] args) {
           final Banana banana = new Banana(1,1,"a");
+
+
           //banana = new Banana(); 会报错
           System.out.println(banana);
           banana.count = 2;
           System.out.println(banana);
+          new Integer(1);
      }
 }
