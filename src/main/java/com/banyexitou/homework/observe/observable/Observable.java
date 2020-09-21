@@ -1,8 +1,9 @@
 package com.banyexitou.homework.observe.observable;
 
 
+import com.banyexitou.homework.observe.observer.Observer;
+
 import java.util.ArrayList;
-import java.util.Observer;`
 
 /**
  * 被观察的

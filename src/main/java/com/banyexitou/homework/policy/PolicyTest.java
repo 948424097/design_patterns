@@ -3,6 +3,7 @@ package com.banyexitou.homework.policy;
 import com.banyexitou.homework.policy.behavior.impl.FastRun;
 import com.banyexitou.homework.policy.biology.Animal;
 import com.banyexitou.homework.policy.biology.extend.Monkey;
+import org.springframework.beans.factory.support.AbstractBeanFactory;
 
 public class PolicyTest {
     public static void main(String[] args) {
@@ -14,5 +15,8 @@ public class PolicyTest {
         animal.movement();
         animal.setBehavior(new FastRun());
         animal.movement();
+        System.out.println("resolvedName" != null);
+
+        while ("resolvedName" != null);
     }
 }
